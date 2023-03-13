@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{min-height: 100vh;
+    background:orange;
+    
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.card{
+    
+
+padding-top:30px;
+padding-left:50px;
+border-radius: 30px;
+text-align: center;
+position:relative;
+ 
+
+opacity:0.9;
+
+
+
+
+}
+.card::after{
+    content:"";
+    width:300px;
+    height:400px;
+    
+    background:papayawhip;
+    text-align: center;
+    padding:100px;
+    border-radius: 30px;
+    opacity:0.3;
+    position:absolute;
+    top:-40px;
+    left:-50px;
+    z-index:-1
+    
+    
+    
+    
+    }
+    .three{
+        display:flex;
+        justify-content: space-between;
+
+        margin-top:90px;
+        width:200px;
+        
+        
+    }
+    .sub{
+    background:orange;
+    width:100px;
+    height:40px;
+    border-radius:50px;
+    margin:10px;
+    }
+    input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style:groove;
+        background-color: rgb(239, 184, 95);
+        width:200px;
+        height:30px;
+        font-size: 1rem;
+        opacity:0.5
+        
+        
+      }
+      .circle1{
+
+        width:300px;
+        height:300px;
+        background-color: red;
+        border-radius:50%;
+        opacity:0.4;
+        margin-bottom:500px;
+        margin-left:50px
+      }
+      .circle2{
+
+        width:300px;
+        height:300px;
+        background-color: rgb(248, 235, 205);
+        border-radius:50%;
+        opacity:0.4;
+        margin-top:500px;
+        
+      }
+      
+      
